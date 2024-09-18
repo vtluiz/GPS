@@ -1,0 +1,6 @@
+/projeto-pyautogui
+│
+├── /src
+│   └── captura_mouse.py
+├── .gitignore
+└── README.md
