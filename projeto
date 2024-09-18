@@ -1,0 +1,14 @@
+import pyautogui
+import time
+
+# Pausar por 3 segundos
+time.sleep(5)
+
+# Capturar as coordenadas do cursor do mouse
+x, y = pyautogui.position()
+
+# Mostrar as coordenadas capturadas em um alerta e no console
+pyautogui.alert(f"Coordenadas capturadas: ({x}, {y})")
+print(f"Coordenadas capturadas: ({x}, {y})")
+
+
